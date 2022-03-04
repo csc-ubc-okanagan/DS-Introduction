@@ -31,7 +31,7 @@ Markdown encourages the writer to think only about document structure and prose 
 
 Your working copy is your plain text markdown document. Your distribution copy is the the stylized, formatted version.
 
-![Markdown to other formats](images/markdown_translation.png)
+![](images/markdown-translation.png)
 
 ## A (Brief) History of Markdown
 
