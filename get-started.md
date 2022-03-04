@@ -25,7 +25,7 @@ You\'re presenting a poster at an upcoming conference. You\'d like to be able to
 
 *15 Minutes*
 
-* * Set up a [GitHub account](https://github.com/)
+* Set up a [GitHub account](https://github.com/)
 * Install [Atom](https://atom.io/)
 * Set up Windows 10 for linux command line tools
 
