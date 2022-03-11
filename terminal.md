@@ -158,7 +158,7 @@ touch this.tmp that.tmp who.tmp why.tmp where.tmp what.tmp
 ```
 **File Extensions**
 
-File extensions are simply another part of a file name that helps us and our operating system know what application is that we expect to use to open a file. We can change file extensions and all we change is the file name, we don\'t change anything intrinsic about the file itself. `.tmp` is a common file extension used for plain text files that are temporary in nature and meant to be deleted frequently, or at least not held onto for any length of time.
+File extensions are simply another part of a file name that helps us and our operating system know what application it is that we expect to use to open a file. We can change file extensions and all we change is the file name, we don\'t change anything intrinsic about the file itself. `.tmp` is a common file extension used for plain text files that are temporary in nature and meant to be deleted frequently, or at least not held onto for any length of time.
 
 Now, we might realize that we meant to put these in their own directory. Let\'s make that directory and move everything over, move ourselves over and then investigate things.
 

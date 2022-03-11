@@ -25,7 +25,7 @@ You\'re presenting a poster at an upcoming conference. You\'d like to be able to
 
 *15 Minutes*
 
-* * Set up a [GitHub account](https://github.com/)
+* Set up a [GitHub account](https://github.com/)
 * Install [Atom](https://atom.io/)
 * Set up Windows 10 for linux command line tools
 
@@ -33,7 +33,7 @@ You\'re presenting a poster at an upcoming conference. You\'d like to be able to
 
 1. Click the `Start button` , click `Control Panel`, click `Programs`, and then click `Turn Windows features on or off`
 2. Enable Windows Subsystem for Linux
-3. To get Bash installed, open Command Prompt (Click Start, enter cmd) and type `bash`
+3. To start a Bash terminal, open Command Prompt (Click Start, enter cmd) and type `bash`
 
 ## Links
 
