@@ -39,3 +39,4 @@ You\'re presenting a poster at an upcoming conference. You\'d like to be able to
 
 * [UBC horizontal poster template](https://it.ubc.ca/sites/ubcit.ubc.ca/files/ubc_research_poster_template.ppt)
 * [qrcodemonkey](https://www.qrcode-monkey.com/)
+* [Twitter logo](images/twitter.png)
