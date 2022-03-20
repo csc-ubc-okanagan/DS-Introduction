@@ -31,7 +31,7 @@ GitHub is a website for hosting and sharing Git repositories. It is designed to 
 	- click _Create repository_
 
 
-{% include note.html content="Though not mandatory, choosing a license is an important part of openly sharing your creative work online. For help selecting an appropriate license see <https://choosealicense.com/>." %}
+Though not mandatory, choosing a license is an important part of openly sharing your creative work online. For help selecting an appropriate license see <https://choosealicense.com/>.
 
 Edit the readme file
 
