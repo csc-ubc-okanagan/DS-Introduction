@@ -1,61 +1,47 @@
-# Git and GitHub
-We will use GitHub to publish the webpage file so anyone who scans the QR code on our poster can access it online. Though we're only using GitHub for publishing, its main purpose is for version control and collaboration.  
+---
+title: "GitHub Pages"
+---
 
-## Concepts and definitions
+Now that we have a Markdown file with information to share, we need an inexpensive and reliable place to publish it. [GitHub](https://github.com/) is a free and widely trusted online platform that can be used to store files and folders, to edit and track changes to the files, and to publish simple websites from Markdown content.
 
-### What is version control?
+## Git and version control
+GitHub is designed for sharing _Git repositories_, collections of files that are tracked using version control software called Git. You don't need to install or learn Git to publish files on GitHub, but it's helpful to know that the structure, terminology, and workflows in GitHub are derived from Git.
 
-Git is version control software that tracks the changes made to a group of files. Version control systems are often associated with software development but are increasingly used for collaboration in research and academic environments. 
+Git is open source software that tracks changes made to a group of files. Each group of tracked files is called a _repository_. Git takes periodic snapshots of the files and stores them as a _version_ of the repository, keeping track of all previous versions and documenting the changes, when they were made, and by whom.
 
 It takes some discipline to learn and make use of version control but there are many benefits:
 
 * **Collaboration** - Version control helps teams work collaboratively on same set of documents without interfering with each other.
 * **Versioning** - It provides a thorough log of changes to tracked files without creating multiple copies, making it easier to identify the most current version.
 * **Rolling back** - Made a mistake?  Version control lets you review and undo changes, reverting to previous stages in the document's history. This can be useful when changes to your files introduce unforeseen problems.
-* **Backup** - While not meant to be a backup solution, version control systems mean your code and writing can be stored on multiple computers.
+* **Backup** - While not intended primarily as a backup solution, version control systems make it easy to keep syncronized copies of your files in multiple locations.
 
-### What are Git and GitHub?
+## GitHub for publishing
+GitHub is a website for hosting and sharing Git repositories. It is designed to _complement_ a local installation of Git software, but it can also be used on its own in a web browser. In this workshop we will use GitHub only, but for larger projects you may wish to install Git. Integrating GitHub with Git allows you to edit files on your own computer with your preferred text editing tools, then periodically synchronize them with a copy of the repository in GitHub.
 
-**_Git_** and **_GitHub_** are often used interchangeably but it's important to understand what each does and how they work together.
 
-**_Git_** is a free, open source tool that can be installed on your local computer to track changes made to a set of files (referred to as a "git repository" or "repo"). Git can be used independently to organize one's own work, or to coordinate team projects with multiple authors. Git ensures that everyone's contributions are tracked and merged effectively by keeping copies of all previous versions and documenting the changes, when they were made, and by whom.   
+### Create a repository
+
+1. Sign in to [GitHub](https://github.com)
+2. In the top right corner, click the _+_ icon and select _New Repository_
+3. On the _Create a new repository_ page
+	- give your repository a name and optional description
+	- leave it as _Public_ (this is required to publish a webpage)
+	- select _Add a README file_
+	- click _Create repository_
+
+
+{% include note.html content="Though not mandatory, choosing a license is an important part of openly sharing your creative work online. For help selecting an appropriate license see <https://choosealicense.com/>." %}
+
+Edit the readme file
+
+### Upload a text file to the repository
 
 Git was designed for _text_ files that can be opened in a text editor (as opposed to _binary_ file formats like .pdf and .docx).  A Git repository can preserve files of any type, but only text files will benefit from all Git's features.  
-{: .info}
 
+Upload the Markdown file you created earlier to your new repository.
 
-**_GitHub_** is a popular website for hosting and sharing Git repositories. GitHub provides online infrastructure that makes it easier for teams to collaborate with Git.  Team members make contributions to the repository on local copies of the files, then "push" their changes back to GitHub so everyone else can see them.  
+1. 
+2. 
 
-The GitHub interface makes it easy to view files in the repository and what changes have been made. GitHub also makes it easier for groups to publish their work (each GitHub repository can have its own project website, blog, and wiki using [GitHub Pages](https://pages.github.com/).)
-
-The names Git and GitHub are sometimes used interchangeably but they are actually different pieces of software that often work together. 
-
-## Publishing with GitHub 
-
-A collection of files and folders tracked by Git and / or stored on GitHub is referred to as a "repository," sometimes shorted to "repo". In today's workshop we will create a repository in GitHub containing our web file, then use the GitHub Pages feature to publish the repository's contents as a simple stand-alone website.
-
-Using GitHub in this way allows you to create simple websites at no cost.
-
-### Create an empty GitHub repository
-
-Log into your GitHub account and create a new repository by clicking the **+** icon in the upper-right corner of
-any page, then selecting **New repository**.  
-
-__Placeholder for screenshot__
-
-- Name the repository
-- Add optional description
-- Ensure repository is set to "Public"
-- Click "Create repository"
-
-Though not mandatory, choosing a license is an important part of openly sharing your creative work online. For help selecting an appropriate license see <https://choosealicense.com/>.
-{: .info}
-
-### Uploading files to the repository
-
-
-### Publication with GitHub Pages
-
-
-
-
+### Pubish the file with GitHub Pages

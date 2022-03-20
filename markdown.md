@@ -1,4 +1,6 @@
-# Markdown
+---
+title: "Markdown"
+---
 
 ## The Ethos of Markdown
 

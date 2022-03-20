@@ -1,4 +1,6 @@
-# Abandoning the mouse
+---
+title: "Abandoning the mouse"
+---
 
 Why learn to use the command line?
 
