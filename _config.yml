@@ -1,0 +1,10 @@
+theme: minima
+title: Digital Scholarship Introduction
+
+base_url: /DS-Introduction
+
+header_pages:
+  - get-started.md
+  - terminal.md
+  - markdown.md
+  - github-pages.md
