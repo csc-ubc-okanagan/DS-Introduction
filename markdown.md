@@ -46,8 +46,8 @@ We\'ll cover the following today
   * headings
   * lists
   * links
-  * tables
   * images
+  * tables
 
 But there\'s more that you can do with Markdown, and you see a full guide here: https://www.markdownguide.org/basic-syntax/
 
@@ -60,3 +60,63 @@ open -a Atom 20210611_DHSI-Poster_Web-Materials.md # Mac
 
 Atom 20210611_DHSI-Poster_Web-Materials.md # Windows
 ```
+
+## Markdown cheatsheet
+
+## New lines and paragraphs
+
+**New lines** are demarcated with two spaces, `  `, at the end of the preceding line.
+
+This is line 1  
+This is line 2
+
+**Paragraphs** are demarcated with two carriage returns; the `Enter` key
+
+This is paragraph 1.
+
+This is paragraph 2.
+
+### Headings
+
+There is generally support for six levels of headings, each demarcated by a series of hashtags, `#`.
+
+\# Heading 1  
+# First level header
+
+\#\# Heading 2  
+## Second level header
+
+\#\#\# Heading 3  
+### Third level header
+
+etc...
+
+### Lists
+
+List are either ordered or unordered.
+
+**Unordered** lists use either `*` or `-`
+
+\* apples  
+\* bananas  
+\* oranges  
+
+* apples
+* bananas
+* oranges
+
+### Links
+
+Links are defined by two sets of parentheses, one square, one round, `[]()`. The text for the link goes in the `[]`, and the url goes in the `()`
+
+\[Follow this link!\]\(https<span>://ww</span>w.somethingspecial.ca\)
+
+[Follow this link!](https://www.somethingspecial.ca)
+
+### Images
+
+Images are just a special kind of link. To differentiate them from hyperlinks, they are preceded by an exclamation mark `!`. The alternative text goes in the `[]`, and the image source in the `()`.
+
+![]()
+
+![]()
