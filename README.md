@@ -1,4 +1,6 @@
-# Digital Scholarship: An Introduction
+---
+title: "Digital Scholarship: An Introduction"
+---
 
 ## Outline
 
