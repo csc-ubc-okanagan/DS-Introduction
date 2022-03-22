@@ -51,7 +51,7 @@ We\'ll cover the following today
   * images
   * tables
 
-But there\'s more that you can do with Markdown, and you see a full guide here: https://www.markdownguide.org/basic-syntax/
+But there\'s more that you can do with Markdown, and you see a full guide here: [https://www.markdownguide.org/basic-syntax/](https://www.markdownguide.org/basic-syntax/)
 
 Let\'s explore writing in Markdown...
 
@@ -63,16 +63,38 @@ open -a Atom 20210611_DHSI-Poster_Web-Materials.md # Mac
 Atom 20210611_DHSI-Poster_Web-Materials.md # Windows
 ```
 
+Review a sample of what we'll create here: [https://csc-ubc-okanagan.github.io/DS-Introduction/academic-cv.html](https://csc-ubc-okanagan.github.io/DS-Introduction/academic-cv.html)
+
+See the raw markdown here: [https://csc-ubc-okanagan.github.io/DS-Introduction/academic-cv-md.html](https://csc-ubc-okanagan.github.io/DS-Introduction/academic-cv-md.html)
+
 ## Markdown cheatsheet
+
+[New lines and paragraphs](#new-lines-and-paragaphs)
+[Headings](#headings)
+[Lists](#lists)
+[Links](#links)
+[Images](#images)
+[Tables](#tables)
 
 ## New lines and paragraphs
 
 **New lines** are demarcated with two spaces, `  `, at the end of the preceding line.
 
+```
+This is line 1  
+This is line 2
+```
+
 This is line 1  
 This is line 2
 
 **Paragraphs** are demarcated with two carriage returns; the `Enter` key
+
+```
+This is paragraph 1.
+
+This is paragraph 2.
+```
 
 This is paragraph 1.
 
@@ -82,13 +104,22 @@ This is paragraph 2.
 
 There is generally support for six levels of headings, each demarcated by a series of hashtags, `#`.
 
-\# Heading 1  
+```
+# First level header
+```
+
 # First level header
 
-\#\# Heading 2  
+```
+## Second level header
+```
+
 ## Second level header
 
-\#\#\# Heading 3  
+```
+### Third level header
+```
+
 ### Third level header
 
 etc...
@@ -99,9 +130,11 @@ List are either ordered or unordered.
 
 **Unordered** lists use either `*` or `-`
 
-\* apples  
-\* bananas  
-\* oranges  
+```
+* apples  
+* bananas  
+* oranges
+```
 
 * apples
 * bananas
@@ -111,7 +144,9 @@ List are either ordered or unordered.
 
 Links are defined by two sets of parentheses, one square, one round, `[]()`. The text for the link goes in the `[]`, and the url goes in the `()`
 
-\[Follow this link!\]\(https<span>://ww</span>w.somethingspecial.ca\)
+```
+[Follow this link!](https://www.somethingspecial.ca)
+```
 
 [Follow this link!](https://www.somethingspecial.ca)
 
@@ -119,6 +154,24 @@ Links are defined by two sets of parentheses, one square, one round, `[]()`. The
 
 Images are just a special kind of link. To differentiate them from hyperlinks, they are preceded by an exclamation mark `!`. The alternative text goes in the `[]`, and the image source in the `()`.
 
-![]()
+```
+![Twitter Logo](images/twitter.png)
+```
 
-![]()
+![Twitter Logo](images/twitter.png)
+
+### Tables
+
+Tables use a series of pipes `|` to delineate columns and line breaks to delineate rows. The header is separated from the content with a series of dashes (minimum 3) `---` and a set of colons `:` dictates alignment
+
+```
+| Author | Title | Date |
+| :--- | :--- | :---| # left aligned
+| Tadmor B et al | Camel bite: risk factors and management | 1992 |
+| Kain R et al | Camel bite: An uncommon mode of maxillofacial injury, its mechanism and fatality: Case series and review of literature | 2015 |
+```
+
+| Author | Title | Date |  
+| :--- | :--- | :---|  
+| Tadmor B et al | Camel bite: risk factors and management | 1992 |  
+| Kain R et al | Camel bite: An uncommon mode of maxillofacial injury, its mechanism and fatality: Case series and review of literature | 2015 |

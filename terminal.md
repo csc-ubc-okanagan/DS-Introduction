@@ -137,6 +137,8 @@ touch README.md
 
 We still need to get our poster template from UBC IT.
 
+`https://it.ubc.ca/sites/ubcit.ubc.ca/files/ubc_research_poster_template.ppt`
+
 ```bash
 curl https://it.ubc.ca/sites/ubcit.ubc.ca/files/ubc_research_poster_template.ppt -o 20220323_DHSI-Poster.ppt
 ```

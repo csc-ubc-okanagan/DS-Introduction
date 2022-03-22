@@ -1,10 +1,10 @@
 ---
-title: academic cv
+title: Academic CV
 ---
 
 # Mathew Vis-Dunbar
 
-**Updated March 11, 2022**
+**Updated March 22, 2022**
 
 Data & Digital Scholarship Librarian  
 University of British Columbia, Okanagan  
