@@ -69,7 +69,7 @@ See the raw markdown here: [https://csc-ubc-okanagan.github.io/DS-Introduction/a
 
 ## Markdown cheatsheet
 
-[New lines and paragraphs](#new-lines-and-paragaphs)  
+[New lines and paragraphs](#new-lines-and-paragraphs)  
 [Headings](#headings)  
 [Lists](#lists)  
 [Links](#links)  
