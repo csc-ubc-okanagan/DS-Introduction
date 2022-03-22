@@ -69,12 +69,12 @@ See the raw markdown here: [https://csc-ubc-okanagan.github.io/DS-Introduction/a
 
 ## Markdown cheatsheet
 
-[New lines and paragraphs](#new-lines-and-paragaphs)
-[Headings](#headings)
-[Lists](#lists)
-[Links](#links)
-[Images](#images)
-[Tables](#tables)
+[New lines and paragraphs](#new-lines-and-paragaphs)  
+[Headings](#headings)  
+[Lists](#lists)  
+[Links](#links)  
+[Images](#images)  
+[Tables](#tables)  
 
 ## New lines and paragraphs
 
