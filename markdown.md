@@ -76,7 +76,7 @@ See the raw markdown here: [https://csc-ubc-okanagan.github.io/DS-Introduction/a
 [Images](#images)  
 [Tables](#tables)  
 
-## New lines and paragraphs
+### New lines and paragraphs
 
 **New lines** are demarcated with two spaces, `  `, at the end of the preceding line.
 
