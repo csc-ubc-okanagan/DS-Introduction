@@ -2,12 +2,12 @@
 title: "GitHub Pages"
 ---
 
-Now that we have a Markdown file with information to share, we need an inexpensive and reliable place to publish it. [GitHub](https://github.com/) is a free and widely trusted online platform that can be used to store files and folders, to edit and track changes to the files, and to publish simple websites from Markdown content.
+You have a Markdown file with information to share and need an inexpensive and reliable place to publish it. [GitHub](https://github.com/) is a free and widely trusted online platform that can be used to store files and folders, to edit and track changes to the files, and to publish simple websites from Markdown content.
 
 ## Git and version control
 GitHub is designed for sharing _Git repositories_, collections of files that are tracked using version control software called Git. You don't need to install or learn Git to publish files on GitHub, but it's helpful to know that the structure, terminology, and workflows in GitHub are derived from Git.
 
-Git is open source software that tracks changes made to a group of files. Each group of tracked files is called a _repository_. Git takes periodic snapshots of the files and stores them as a _version_ of the repository, keeping track of all previous versions and documenting the changes, when they were made, and by whom.
+Git is open source software that tracks changes made to a group of files. Each group of tracked files is stored in a  _repository_. Git takes periodic snapshots of the tracked files (these snapshots are called _commits_) and saves them in the repository to keep a record of changes, when they were made, and by whom.
 
 ![Git workflow](images/git_process.svg)
 
@@ -22,12 +22,16 @@ It takes some discipline to learn and make use of version control but there are 
 ## GitHub for publishing
 GitHub is a website for hosting and sharing Git repositories. It is designed to _complement_ a local installation of Git software, but it can also be used on its own in a web browser. In this introductory workshop we will use GitHub in a browser only, but for larger projects you may wish to lean more about Git as well. Integrating GitHub with Git allows you to edit files on your own computer with your preferred text editing tools, then periodically synchronize them with a copy of the repository in GitHub. UBC Library's [Introduction to Git and GitHub](https://ubc-library-rc.github.io/intro-git/) workshop is one way to learn more about these tools (see upcoming [workshop dates](https://researchcommons.library.ubc.ca/workshops/)).
 
+GitHub repositories can also be published as websites. In the steps below we will create a simple repository, add a Markdown file, then publish a web version of the file using _GitHub Pages_.
+
 ### Create a repository
 The first step is to create a GitHub repository for the files we want to publish. Repositories can be Public (visible to anyone) or Private (visible only to you and to GitHub users you allow access). When using free GitHub accounts only public repositories can be published as websites.  
 
 1. Sign in to [GitHub](https://github.com)
 2. In the top right corner, click the _+_ icon and select _New Repository_
+    
     ![new repository menu](images/new_repository.png)
+    
 3. On the _Create a new repository_ page
 	- give your repository a name and optional description
 	- leave it as _Public_ (required if publishing as webpage)
@@ -52,7 +56,9 @@ The numbers correspond to a few key elements of the GitHub repository page:
 Upload the Markdown file you created earlier to your new repository.
 
 1. Click the _Add file_ button and select _Upload files_
+    
     ![upload file](images/upload_file.png)
+    
 2. Drag or select your Markdown file. 
 3. Add a note to describe your _commit_ (i.e. your change to the repository) and click _Commit changes_.
 
@@ -65,18 +71,20 @@ GitHub Pages is a feature that generates a static website from the files in your
 1. On your repository page, click _Settings_ (far right in the horizontal menu)
 2. On the settings page, choose _Pages_ from the menu on the left side of the screen.
 3. In the _Source_ section of the GitHub Pages settings, click the _None_ button to change the source to _main_ (the main branch of your repository)
+    
     ![select source branch](images/select_branch.png)
+    
 4. Click _Save_ 
 
 A message will give you the URL for your new repository. It will take a few minutes for the site to be ready. Copy or bookmark this URL so you can use it later.
 
-Sites built with GitHub pages are simple by default but can be customized with themes and enhanced with navigation and other elements. Most enhancements involve adding configuration files to the repository. If you'd like to explore these features it is helpful to know that GitHub pages uses _Jekyll_ software to generate its websites. Many Jekyll themes will work with GitHub.
+Sites built with GitHub pages are simple by default but can be customized with themes and enhanced with navigation and other elements. Most enhancements involve adding configuration files to the repository. If you'd like to explore these features it is helpful to know that GitHub Pages uses _Jekyll_ software to generate its websites. For more information see [Adding a theme to your GitHup Pages site using Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll).
 
 ### Find your published Markdown file
-By default the homepage for your site will be the README file. To access the web version of your Markdown file you have two options:
+By default the homepage for your newly published site will be the README file. To access view the web version of your Markdown file you have two options:
 
 1. Rename your Markdown file to _index.md_. If an _index.md_ file is present GitHub Pages will always use it as the landing page.
-2. Add your filename to the end of the URL, replacing _md_ with _html_. If your file was called _myfile.md_ your new URL would end in _myfile.html_.
+2. Add your filename to the end of the URL string, replacing _md_ with _html_. For example, if your file is called _myfile.md_ your new URL would end in _myfile.html_.
 
 ## Create a QR code
 
