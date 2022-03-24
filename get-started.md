@@ -31,8 +31,8 @@ You\'re presenting a poster at an upcoming conference. You\'d like to be able to
 * Install [Atom](https://atom.io/)
 * Set up a terminal
      - Mac and Linux: bash or zsh terminal apps are already installed
-     - Windows: install _Windows Subsystem for Linux_ (WSL). Follow the instructions in the _Install_ section of <https://docs.microsoft.com/en-us/windows/wsl/install>. A bash prompt will open after installion is complete. To access bash again later open Command Prompt (Click Start, enter `cmd`, select Command Prompt), type `bash`, then hit enter.
-
+     - Windows: install _Windows Subsystem for Linux_ (WSL). Follow the instructions in the _Install_ section of <https://docs.microsoft.com/en-us/windows/wsl/install>. A bash prompt will open after installation is complete. To access bash again later open Command Prompt (Click Start, enter `cmd`, select Command Prompt), type `bash`, then hit enter.
+    
     If you see the error "Windows Subsystem for Linux has no distributions", run the command `wsl --install -d Ubuntu` in Command Prompt, wait for the Ubuntu distribution to download and install, then try again. 
 
 ## Links
