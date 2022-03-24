@@ -29,13 +29,11 @@ You\'re presenting a poster at an upcoming conference. You\'d like to be able to
 
 * Set up a [GitHub account](https://github.com/)
 * Install [Atom](https://atom.io/)
-* Set up Windows 10 for linux command line tools
+* Set up a terminal
+     - Mac and Linux: bash or zsh terminal apps are already installed
+     - Windows: install _Windows Subsystem for Linux_ (WSL). Follow the instructions in the _Install_ section of <https://docs.microsoft.com/en-us/windows/wsl/install>. A bash prompt will open after installion is complete. To access bash again later open Command Prompt (Click Start, enter `cmd`, select Command Prompt), type `bash`, then hit enter.
 
-[Originally posted on StackOverflow](https://stackoverflow.com/questions/36352627/how-to-enable-bash-in-windows-10-developer-preview/36465000#36465000)
-
-1. Click the `Start button` , click `Control Panel`, click `Programs`, and then click `Turn Windows features on or off`
-2. Enable Windows Subsystem for Linux
-3. To start a Bash terminal, open Command Prompt (Click Start, enter cmd) and type `bash`
+    If you see the error "Windows Subsystem for Linux has no distributions", run the command `wsl --install -d Ubuntu` in Command Prompt, wait for the Ubuntu distribution to download and install, then try again. 
 
 ## Links
 
