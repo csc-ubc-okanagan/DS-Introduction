@@ -28,3 +28,12 @@ This is an introductory level workshop that will set the stage for further explo
 ## What you will need
 
 * A computer. Neither a tablet nor cell phone will suffice. That's it. We'll set you up with everything else during the workshop.
+## License
+
+[![CC BY-NC 4.0](./images/cc-by-nc-shield.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
+This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License][cc-by-nc].
+
+[cc-by-nc]: https://creativecommons.org/licenses/by-nc/4.0/
+[cc-by-nc-image]: https://licensebuttons.net/l/by-nc/4.0/88x31.png
+[cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
